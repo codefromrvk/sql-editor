@@ -1,7 +1,7 @@
 # Live website
 [sql-editor](https://sql-editor-demo.netlify.app/)
 
-# Calculating load time:
+# Calculating page load time:
 
 ## 1. Devtools
 One method to calculate page load time is to use devtools network option.
