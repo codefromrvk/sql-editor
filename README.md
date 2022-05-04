@@ -1,5 +1,29 @@
-# Project flow
+# Calculating load time:
+
+## 1. Devtools
+One method to calculate page load time is to use devtools network option.
+In the picture shown below I have marked the load time with red underline. 
+This time shows the total period to download files and load.
+
 ![Ref image](loadtimeimg.png)
+
+## 2. Vanilla JS code
+
+Using the following code the time required to display the root html page of react is calculated 
+
+```
+var before_loadtime = new Date().getTime();
+window.onload = Pageloadtime;
+export function Pageloadtime() {
+  var aftr_loadtime = new Date().getTime();
+  // Time calculating in seconds
+  var pgloadtime = (aftr_loadtime - before_loadtime) / 1000;
+
+  console.log(pgloadtime);
+}
+
+```
+
 
 
 
