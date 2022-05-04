@@ -1,6 +1,12 @@
 # Live website
 [sql-editor](https://sql-editor-demo.netlify.app/)
 
+# Project details
+1. Home page : Landing page for the project
+2. Editor : Upload the sql,sqlite files or use existing table for testing . Created this feature using react-drag-drop-files package .
+Once file gets uploaded , query input page opens up . Three predefined queries are also given to test the application . Click on any query and hit the run button to see the results.
+3.  About : Simple info page 
+
 # Calculating page load time:
 
 ## 1. Devtools
